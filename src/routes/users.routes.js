@@ -4,9 +4,6 @@ const validationMiddleware = require('../validationSchemas/validationMiddleware.
 const createUserSchema = require('../validationSchemas/createUser');
 const updateUserSchema = require('../validationSchemas/updateUser');
 
-// Home Route Route
-router.get('/home', users.homeRouteHandler);
-
 // Get User Route
 router.get('/:id', users.getUserHandler);
 
